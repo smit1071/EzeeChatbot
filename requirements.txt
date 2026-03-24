@@ -1,0 +1,27 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Settings
+pydantic-settings==2.6.1
+
+# Groq LLM
+groq==0.13.0
+
+# Embeddings (local, no API key needed)
+sentence-transformers==3.3.1
+
+# Vector DB
+faiss-cpu==1.9.0
+
+# PDF parsing
+PyMuPDF==1.24.14
+
+# URL fetching + HTML parsing
+httpx==0.28.0
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# Utilities
+numpy==1.26.4
+python-multipart==0.0.19    # required for UploadFile support in FastAPI
