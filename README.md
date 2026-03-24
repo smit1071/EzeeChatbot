@@ -38,6 +38,17 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env and set GROQ_API_KEY=gsk_...
 ```
+# Required
+GROQ_API_KEY='Groq API Key'
+
+# Optional overrides (defaults shown)
+```GROQ_MODEL=llama-3.1-8b-instant
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+CHUNK_SIZE=512
+CHUNK_OVERLAP=64
+TOP_K_CHUNKS=5
+WINDOW_MEMORY_SIZE=10
+```
 
 ### 4. Start the server
 
